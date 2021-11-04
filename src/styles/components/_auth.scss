@@ -1,0 +1,100 @@
+.auth__main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__login-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.img__login-container img {
+    width: 100%;
+}
+
+.form__login-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth__inputs-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.auth__input img {
+    width: 20px;
+}
+
+.auth__inputs-container input {
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+
+
+.auth__or-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.lines__or-container {
+    // border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 13%;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+.auth__social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.google__container {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.google__container a img {
+    height: 22px;
+}
+
+.facebook__container {
+    height: 40px;
+    margin: 20px;
+}
+
+.facebook__container a img {
+    height: 40px;
+}
