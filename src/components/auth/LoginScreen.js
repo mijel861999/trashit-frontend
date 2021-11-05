@@ -21,7 +21,7 @@ export function LoginScreen() {
     const handleLogin = ( e ) => {
         e.preventDefault();
         console.log( email, password)
-        alert('Se está logeando');
+        alert(`El usuario es ${ email } y la contraseña es ${ password }`);
     }
 
     return (
